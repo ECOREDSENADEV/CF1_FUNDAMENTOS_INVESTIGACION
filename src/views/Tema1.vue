@@ -10,10 +10,10 @@
     p.mb-5 La investigación es un pilar esencial en los procesos de creación, ideación e innovación, ya que permite abordar los desafíos contemporáneos desde una perspectiva crítica, creativa y fundamentada. En un entorno laboral cada vez más cambiante y competitivo, la capacidad de investigar no solo mejora la comprensión de los problemas, sino que también impulsa la formulación de soluciones pertinentes, sostenibles y diferenciadoras. Así, investigar en el contexto del trabajo ya no es una tarea exclusiva de científicos o académicos, sino una competencia transversal que todas las personas deben desarrollar para adaptarse, mejorar procesos, tomar decisiones informadas y generar valor dentro de sus organizaciones.
   
     .row.mb-5
-      .col-lg-3.order-lg-2.mb-3.mb-lg-0
+      .col-lg-3.order-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/1.png", data-aos="zoom-in")
-      .col-lg-9.order-lg-1
+      .col-lg-9.order-1.mb-3.mb-lg-0
         .bg-color-2.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
             .col-lg-auto.mb-3.mb-lg-0

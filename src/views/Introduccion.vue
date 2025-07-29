@@ -20,7 +20,7 @@
     .bg-color-1.mb-5.tarjeta
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 Investigar se convierte así en una estrategia para aprender a aprender, construir valor y tomar decisiones informadas. En un entorno que exige innovación y adaptación constante, formar competencias para la indagación y la gestión del conocimiento es clave para responder a los retos de las profesiones del presente y del futuro.

@@ -7,7 +7,7 @@
         span 3
       h1 Fuentes de información
     
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.bg-color-8.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}"
       )(data-aos="zoom-in")
@@ -22,7 +22,7 @@
     p.mb-5 Para desarrollar una investigación con sustento riguroso, es fundamental identificar y utilizar fuentes de información confiables y pertinentes. Estas fuentes permiten construir el marco teórico, sustentar los argumentos y validar los hallazgos obtenidos. 
 
     .bg-color-3.mb-5.tarjeta
-      .row.align-items-center
+      .row.align-items-center.p-4.p-lg-0
         .col-lg-auto.order-2
           img(src="@/assets/curso/tema3/2.png", style="max-width: 210px").mx-auto
         .col-lg.order-1.p-5.mb-3.mb-lg-0
@@ -177,7 +177,7 @@
     p.mb-5 El SENA cuenta con una Biblioteca Virtual que ofrece acceso a múltiples recursos de alta calidad para apoyar la investigación en todas las áreas del conocimiento:
 
     TabsC.color-primario(data-aos="zoom-in")
-      .py-3.py-md-4(titulo="Catálogo bibliográfico")
+      .p-3.p-md-4(titulo="Catálogo bibliográfico")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.order-2
             h4 Catálogo bibliográfico
@@ -186,7 +186,7 @@
           .col-md-5.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/13.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Bases de datos")
+      .p-3.p-md-4(titulo="Bases de datos")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.order-2
             h4 Bases de datos
@@ -195,7 +195,7 @@
           .col-md-5.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/14.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Colección SENA / Repositorio institucional")
+      .p-3.p-md-4(titulo="Colección SENA / Repositorio institucional")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.order-2
             h4 Colección SENA / Repositorio institucional
@@ -204,7 +204,7 @@
           .col-md-5.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/15.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Portal de revistas SENA")
+      .p-3.p-md-4(titulo="Portal de revistas SENA")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.order-2
             h4 Portal de revistas SENA

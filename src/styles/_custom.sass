@@ -25,7 +25,9 @@
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 500px !important  
+  width: 500px !important 
+  @media screen and (max-width: $bp-max-lg) 
+    width: 400px !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $color-sistema-texto !important
@@ -61,7 +63,7 @@ figcaption
   &-7
     color: #4D9371 !important
   &-8
-    background-color: #AAB8E3
+    background-color: #AAB8E3 !important
   &-9
     background-color: #FEE6B5
   &-10
@@ -74,12 +76,30 @@ figcaption
     background-color: #70D3A2
   &-14
     background-color: #E2DACC
+  &-15
+    background-color: #FFC148
+    border-top-left-radius: 10px
+    border-top-right-radius: 10px
+  &-16
+    background-color: #E4F5E8
+  &-17
+    color: #065116 !important
+  &-18
+    background-color: #F9F7F4
   &-info
     background-color: #E8EEFD
   &-sintesis
     background-color: #F6F6F6
   &-white
     background-color: #fff
+  
+.pst
+  border-bottom-left-radius: 10px
+  border-bottom-right-radius: 10px
+  &-2
+    border-top-left-radius: 10px
+    border-top-right-radius: 10px
+  
 //CLASES TITULOS//
 .titulo-con-imagen
   display: flex
@@ -125,8 +145,8 @@ figcaption
     padding-right: 1.5rem
 
 .bg-fondo
-  //&-1
-    background-image: url("../assets/curso/bg1.png") !important
+  &-1
+    background-image: url("../assets/curso/bg1.svg") !important
     background-position: top
   &-slider
     background-image: url("../assets/curso/bg-slidre.png") !important
@@ -197,6 +217,14 @@ figcaption
 .bloque-texto-a.color-acento-contenido
   background-color:  #FFC148
 
+//////////CUSTOM BLOQUE TEXTO A/////////
+.block
+  .bloque-texto-a.color-acento-contenido:before
+    background-color: #E8ECF7
+  .bloque-texto-a.color-acento-contenido
+    background-color:  #AAB8E3
+
+//////////CUSTOM CAJONES//////////////
 .contenedor 
   display: flex
   flex-wrap: wrap
@@ -230,3 +258,18 @@ figcaption
       transform: rotate(90deg); // Opcional para cambiar orientación en móvil
     
   
+///////////////TABLAS/////////////////// 
+.tab
+  table td
+    text-align: start !important
+  th, td, table thead th, .tabla-a th 
+    border: 2px solid #B5B5B5
+  table
+    table-layout: auto
+
+////////SOMBRA CAJON//////////
+.box-shadow
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 8px; /* Opcional, para bordes redondeados */
